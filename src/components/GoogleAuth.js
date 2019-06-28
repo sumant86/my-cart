@@ -1,5 +1,5 @@
 import React from "react";
-import CLIENT_ID from "../Client";
+import { CLIENT_ID } from "../Client";
 class GoogleAuth extends React.Component {
   state = { isSignedIn: null };
   componentDidMount() {
