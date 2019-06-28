@@ -3,7 +3,7 @@ import HeadBar from "./HeadBar";
 
 function App() {
   return (
-    <div>
+    <div className="ui container">
       <HeadBar />
     </div>
   );
